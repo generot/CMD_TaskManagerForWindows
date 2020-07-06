@@ -20,22 +20,22 @@ used in your own project if you'd like to use the functions I've written. They c
 in every C project on Windows(although you should link them to your project using the GNU(MinGW) Linker)
 and also on C++ projects(The MinGW Linker should still be used).
 
-If you wish to compile the binaries yourself, you need to have:
-    - The MinGW(GCC) x64 compiler\n
-    - Make\n
+If you wish to compile the binaries yourself, you need to have:<br/>
+    - The MinGW(GCC) x64 compiler<br/>
+    - Make<br/>
 
 Or you could use an IDE(i.e. Code::Blocks) to compile it, although I personally advise you
 to use the Makefile I've created.
 
-If you're going for the first approach(MinGW + Make) then you should also:
-    - Add the "bin" MinGW folder to the "PATH" environment variable
-    - If you don't have Make, you can download it from this link(http://gnuwin32.sourceforge.net/packages/make.htm)
-    - Once you've downloaded it, you should move/copy the ZIP archive's contents to MinGW's "bin" folder
-    - Once that's done, you can open Git, CMD or any terminal for that matter, go to the directory where you
-    cloned/downloaded the repository and run "make all" if you want to compile all three binaries or you can
-    run "make *the name of the binary you want*.exe" to get a specific executable/dll.
-    - It is recommended that you do this through Git Bash, as the Makefile has been made around it, if you want
-    to use the CMD you have to change the "rm" command to "del" and the forward slashes("//") to backslashes("\\").
+If you're going for the first approach(MinGW + Make) then you should also:<br/>
+    - Add the "bin" MinGW folder to the "PATH" environment variable<br/>
+    - If you don't have Make, you can download it from this link(http://gnuwin32.sourceforge.net/packages/make.htm)<br/>
+    - Once you've downloaded it, you should move/copy the ZIP archive's contents to MinGW's "bin" folder<br/>
+    - Once that's done, you can open Git, CMD or any terminal for that matter, go to the directory where you<br/>
+    cloned/downloaded the repository and run "make all" if you want to compile all three binaries or you can<br/>
+    run "make *the name of the binary you want*.exe" to get a specific executable/dll.<br/>
+    - It is recommended that you do this through Git Bash, as the Makefile has been made around it, if you want<br/>
+    to use the CMD you have to change the "rm" command to "del" and the forward slashes("//") to backslashes("\\").<br/>
 
 You can use the resources in this repository for whatever purpose you want. Any published projects, derived
 from this project, should also be licensed under the GNU GPL v3.0. For more information about the license,
