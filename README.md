@@ -21,8 +21,8 @@ in every C project on Windows(although you should link them to your project usin
 and also on C++ projects(The MinGW Linker should still be used).
 
 If you wish to compile the binaries yourself, you need to have:
-    - The MinGW(GCC) x64 compiler
-    - Make
+    - The MinGW(GCC) x64 compiler\n
+    - Make\n
 
 Or you could use an IDE(i.e. Code::Blocks) to compile it, although I personally advise you
 to use the Makefile I've created.
@@ -33,7 +33,7 @@ If you're going for the first approach(MinGW + Make) then you should also:
     - Once you've downloaded it, you should move/copy the ZIP archive's contents to MinGW's "bin" folder
     - Once that's done, you can open Git, CMD or any terminal for that matter, go to the directory where you
     cloned/downloaded the repository and run "make all" if you want to compile all three binaries or you can
-    run "make <the name of the binary you want>.exe" to get a specific executable/dll.
+    run "make *the name of the binary you want*.exe" to get a specific executable/dll.
     - It is recommended that you do this through Git Bash, as the Makefile has been made around it, if you want
     to use the CMD you have to change the "rm" command to "del" and the forward slashes("//") to backslashes("\\").
 
