@@ -9,7 +9,7 @@
 
 #define MAX_STR 200
 #define ISSUE_ERROR(handle, x) PrintWithDelay((handle), (x), COL_RED, 5)
-#define WELCOME_MSG "Command Line Task Manager(CLTM/TMAN) v0.1 - Type \"help\" for more details\n"
+#define WELCOME_MSG "Command Line Task Manager(CLTM/TMAN) v0.2 - Type \"help\" for more details\n"
 #define HELP_MSG "showp - Show all processes\nkillp <id/ids> - Terminate (a) process(es)\ngetpid <name/names> - Get (a) process(es)' name(s)\nexit - Exit the Task Manager\nhelp - Display this menu\n"
 
 typedef enum {false, true} bool;
@@ -25,12 +25,14 @@ typedef enum {
 extern "C" {
 #endif
 
+//Process-related functions
 void ListAllProcesses(void);
-
 bool KillProcessById(HANDLE hnd, DWORD id);
 DWORD GetProcID(LPSTR name);
 
+//I/O-related functions
 bool PrintWithDelay(HANDLE hnd, char *str, colour col, int delay);
+bool ClearConsole(HANDLE hnd);
 
 #ifdef __cplusplus
 }
