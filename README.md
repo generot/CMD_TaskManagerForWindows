@@ -33,9 +33,9 @@ If you're going for the first approach(MinGW + Make) then you should also:<br/>
     - Once you've downloaded it, you should move/copy the ZIP archive's contents to MinGW's "bin" folder<br/>
     - Once that's done, you can open Git, CMD or any terminal for that matter, go to the directory where you<br/>
     cloned/downloaded the repository and run "make all" if you want to compile all three binaries or you can<br/>
-    run "make *the name of the binary you want*.exe" to get a specific executable/dll.<br/>
+    run "make <*the name of the binary you want*>.exe/dll" to get a specific executable/dll.<br/>
     - It is recommended that you do this through Git Bash, as the Makefile has been made around it, if you want<br/>
-    to use the CMD you have to change the "rm" command to "del" and the forward slashes("//") to backslashes("\\").<br/>
+    to use the CMD you have to change the "rm" command to "del" and the forward slashes("//") to backslashes("\\\\").<br/>
 
 You can use the resources in this repository for whatever purpose you want. Any published projects, derived
 from this project, should also be licensed under the GNU GPL v3.0. For more information about the license,
